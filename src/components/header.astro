@@ -1,0 +1,33 @@
+<astro>
+  <header class="min-h-[120vh] bg-head bg-fill -m-8">
+    <div
+      class="min-h-screen w-full flex justify-center items-center flex-col z-10"
+    >
+      <h1 class="text-[24rem] text-white drop-shadow-lg text-center font-bold">
+        Eloï./ck
+      </h1>
+      <div
+        class="border-2 border-white rounded-md px-8 py-4 text-white font-bold hover:bg-white hover:text-blue-500 transition-all"
+      >
+        En découvrir plus sur moi !
+      </div>
+    </div>
+  </header>
+</astro>
+
+<style>
+  @font-face {
+    font-family: "Celeste";
+    src: url("/fonts/Renogare-Regular.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  h1 {
+    font-family: "Celeste", sans-serif;
+  }
+  .bg-head {
+    background-image: url("/public/Images/bg-header.png");
+  }
+</style>
